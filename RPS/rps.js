@@ -57,4 +57,4 @@ while(tryAgain === true){
     rps();
     tryAgain = confirm("Play again?");
 }
-window.location = "67.219.76.48/";
+window.location = "http://mitchbutter1210.github.io/";
