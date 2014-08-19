@@ -1,6 +1,54 @@
-var places = { usa : "Washington, D.C.",
-			   indiana : "Indianapolis",
-			   california : "Sacramento"
+var places = {  usa : "Washington, D.C.",
+                alabama: "Montgomery",
+                alaska: "Juneau",
+                arizona: "Phoenix",
+                arkansas: "Little Rock",
+                california: "Sacramento",
+                colorado: "Denver",
+                connecticut: "Hartford",
+                delaware: "Dover",
+                florida: "Tallahassee",
+                georgia: "Atlanta",
+                hawaii: "Honolulu",
+                idaho: "Boise",
+                illinois: "Springfield",
+                indiana: "Indianapolis",
+                iowa: "Des Moines",
+                kansas: "Topeka",
+                kentucky: "Frankfort",
+                louisiana: "Baton Rouge",
+                maine: "Augusta",
+                maryland: "Annapolis",
+                massachusetts: "Boston",
+                michigan: "Lansing",
+                minnesota: "Saint Paul",
+                mississippi: "Jackson",
+                missouri: "Jefferson City",
+                montana: "Helena",
+                nebraska: "Lincoln",
+                nevada: "Carson City",
+                "new hampshire": "Concord",
+                "new jersey": "Trenton",
+                "new mexico": "Santa Fe",
+                "new york": "Albany",
+                "north carolina": "Raleigh",
+                "north dakota": "Bismarck",
+                ohio: "Columbus",
+                oklahoma: "Oklahoma City",
+                oregon: "Salem",
+                pennsylvania: "Harrisburg",
+                "rhode island": "Providence",
+                "south carolina": "Columbia",
+                "south dakota": "Pierre",
+                tennessee: "Nashville",
+                texas: "Austin",
+                utah: "Salt Lake City",
+                vermont: "Montpelier",
+                virginia: "Richmond",
+                washington: "Olympia",
+                "west virginia": "Charleston",
+                wisconsin: "Madison",
+                wyoming: "Cheyenne"
 			}
 			
 function enter() {
@@ -29,6 +77,9 @@ function enter() {
 	else if(inputText.toLowerCase() === "how are you?"){
 		response = "I'm good today. Thanks for asking!";
 	}
+    else if(inputText.toLowerCase() === "what are you?" || inputText.toLowerCase() === "what are you"){
+        response = "I am a chatbot designed to talk to you";
+    }
 	else{
 		response = "I'm sorry, I don't understand.";
 	}
