@@ -1,0 +1,12 @@
+*{
+    font-family: Ubuntu ,Comic Sans MS ,Arial;
+}
+
+body {
+     background-color: #D6D6D6;
+}
+
+.links, .video {
+    text-align: center;
+    color: #4768B5;
+}
