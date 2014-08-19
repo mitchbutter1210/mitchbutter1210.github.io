@@ -77,6 +77,9 @@ function enter() {
 	else if(inputText.toLowerCase() === "how are you?"){
 		response = "I'm good today. Thanks for asking!";
 	}
+    else if(inputText.toLowerCase() === "what is league?" || inputText.toLowerCase() === "what is league of legends?"){
+        response = "League of Legends is an amazing MOBA developed by Riot games";
+    }
     else if(inputText.toLowerCase() === "what are you?" || inputText.toLowerCase() === "what are you"){
         response = "I am a chatbot designed to talk to you";
     }
