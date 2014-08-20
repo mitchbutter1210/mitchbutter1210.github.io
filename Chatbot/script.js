@@ -84,10 +84,10 @@ function enter() {
         response = "42";
     }
     else if(inputText.toLowerCase() === "what are you?" || inputText.toLowerCase() === "what are you"){
-        response = "I am John.";
+        response = "I am John Johnson.";
     }
     else if(inputText.toLowerCase() === "are you a chatbot?"){
-        response = "No. I am John. I can answer any questions you have.";
+        response = "No. I am John Johnson. I can answer any questions you have?";
     }
     else if(inputText.toLowerCase() === "good job" || inputText.toLowerCase() === "nice job"){
         response = "Thank you!";
