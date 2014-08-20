@@ -59,14 +59,14 @@ function enter() {
 	var outputText = output.innerHTML;
 	var response = "";
 	if(inputText.toLowerCase() === "hello" || inputText.toLowerCase() === "hi"){
-		response = "Hi";
+		response = "Hello there";
 	}
 	else if(inputText.substring(0, 23).toLowerCase() === "what is the capitol of ") {
 		var place = inputText.substring(23, inputText.length - 1).toLowerCase();
 		response = places[place];
 	}
 	else if(inputText.toLowerCase() === "what's up?" || inputText.toLowerCase() === "whats up?"){
-		response = "Just processing";
+		response = "Just chilling";
 	}
 	else if(inputText.toLowerCase() === "what is the square root of -1?" || inputText.toLowerCase() === "what is the square root of negative one?"){
 		response = "The answer is i, or the imaginary number";
@@ -84,7 +84,13 @@ function enter() {
         response = "42";
     }
     else if(inputText.toLowerCase() === "what are you?" || inputText.toLowerCase() === "what are you"){
-        response = "I am a chatbot designed to talk to you";
+        response = "I am John.";
+    }
+    else if(inputText.toLowerCase() === "are you a chatbot?"){
+        response = "No. I am John. I can answer any questions you have.";
+    }
+    else if(inputText.toLowerCase() === "good job" || inputText.toLowerCase() === "nice job"){
+        response = "Thank you!";
     }
 	else{
 		response = "I'm sorry, I don't understand.";
