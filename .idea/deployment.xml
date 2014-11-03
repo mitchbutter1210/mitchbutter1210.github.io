@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" uploadOnCheckin="669cc651-b907-4f22-941d-28764628514c">
+  <component name="PublishConfigData" serverName="My Web Server" uploadOnCheckin="669cc651-b907-4f22-941d-28764628514c">
     <option name="myUploadOnCheckinName" value="My Server" />
   </component>
 </project>
-
