@@ -1,15 +1,23 @@
 *{
-    font-family: Ubuntu ,Comic Sans MS ,Arial;
+    font-family: Ubuntu, Comic Sans MS, Arial, serif;
 }
 
 body {
-     background-color: #D6D6D6;
+     background-color: #FF7901;
 }
 
 .links, .video {
     text-align: center;
-    color: #4768B5;
+    color: #FFCC9C;
 }
 .defense{
     text-align: center;
+}
+
+a:link {
+    color: #FFCB9C;
+}
+
+a:visited {
+    color: #612E00;
 }
