@@ -9,4 +9,4 @@ if (daym<10)
     daym="0"+daym
 var dayarray=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
 var montharray=new Array("January","February","March","April","May","June","July","August","September","October","November","December")
-document.write("<center><small><font color='FFCB9C' face='Arial'><b>"+dayarray[day]+", "+montharray[month]+" "+daym+", "+year+"</b></font></small></center>")
+document.write("<center><small><font color='FF2727' face='Arial'><b>"+dayarray[day]+", "+montharray[month]+" "+daym+", "+year+"</b></font></small></center>")

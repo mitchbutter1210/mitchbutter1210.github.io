@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="My Web Server" uploadOnCheckin="88cf4e8e-5497-4c6b-8efb-547af6e098e6">
+  <component name="PublishConfigData" uploadOnCheckin="88cf4e8e-5497-4c6b-8efb-547af6e098e6">
     <serverData>
-      <paths name="My Web Server">
+      <paths name="Vision Server">
         <serverdata>
           <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/var/www/html" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

@@ -3,23 +3,23 @@
 }
 
 body {
-     background-color: #FF7901;
+     background-color: #7CE07C;
 }
 
 .links, .video {
     text-align: center;
-    color: #FFCC9C;
+    color: #FF2727;
 }
 .defense{
     text-align: center;
 }
 
 a:link {
-    color: #FFCB9C;
+    color: #FF2727;
 }
 
 a:visited {
-    color: #612E00;
+    color: #B00000;
 }
 
 hr.style-two {
